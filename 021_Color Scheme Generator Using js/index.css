@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black
+}
+
+
+.container{
+    border: 2px solid white;
+    width: 500px;
+    height: auto;
+    margin: 10% auto;
+    box-shadow: 0px 0px 30px white;
+}
+
+
+.div_one{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 90px;
+    background: #1F2937;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+    padding:0px 20px;
+}
+
+
+input{
+    width: 55px;
+    height: 44px;
+    background: #F55A5A;
+    border: 0.5px solid #313131;
+}
+
+select{
+    width: 250px;   
+    height: 40px;
+    background: #1F293A;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color: #D5D4D8;
+}
+
+selectoption{
+    background: #1F2937;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color: #D5D4D8;
+    width: 350px;   
+    height: 40px;
+    padding: 10px;
+    line-height: 10px;
+}
+
+
+.text1,.text2,.text3,.text4,.text5,button{
+    background: #3D4B60;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 14px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* second div coding  */
+
+
+.div_two{
+    height: 355px;
+    border: yellow;
+    display: flex;
+    text-align: center;
+}
+
+.color_fix{
+    
+    height: auto;
+}
+
+.color1{
+    height: auto;
+    width: 110px;
+    background: #F55A5A;
+}
+.color2{
+    height: auto;
+    width: 110px;
+    background: #2B283A;
+}
+.color3{
+    height: auto;
+    width: 110px;
+    background: #FBF3AB;
+}
+.color4{
+    height: auto;
+    width: 110px;
+    background: #AAD1B6;
+}
+.color5{
+    height: auto;
+    width: 110px;
+    background: #A626D3;
+}
+
+
+
+.div_three{
+    display: flex;
+    justify-content: space-around;
+    background:#1F2937; 
+}
+
+#d1,#d2,#d3,#d4,#d5{
+    background-color:transparent !important;
+    
+}
+
+center{
+    margin: 5px;
+}
